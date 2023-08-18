@@ -1,0 +1,203 @@
+& Version=4.20
+SI=yes
+
+
+
+
+
+3.90000 ThermCondGround
+2160000.08583 HeatCap
+4.75000 InitGroundSurfTemp
+0.04000 GeothermalHeatFlux
+428 RecNum
+66 : 6 x 11 rectangle
+283.00000 BHDepth
+15.75000 B
+0.11400 BoreholeDiam
+SINGLE-U
+0.00065 BhVolFlow m3/s
+1 Volflow index
+1 Volflow factor
+0.05000 PipeDiam
+0.00460 PipeThick
+0.22000 PipeThCond
+0.10000 LinOutDiam
+0.00400 LinThick
+0.40000 LinThCond
+0.00000 mc
+0.04500 UPipeDiam
+0.00410 UPipeThick
+0.42000 UPipeThCond
+0.06200 UPipeShankSpace
+0.60000 ThermCondFill
+ 4.32000011205673E-0001 hc_thermcond
+ 4.29760009765625E+0003 hc_heatcap
+ 9.70500000000000E+0002 hc_dens
+ 4.49000019580126E-0003 hc_visc
+-1.46000003814697E+0001 hc_freeze
+0 calculate_borehole_resistance (yes=1,no=0)
+10 multipoles
+ 9.79999974370003E-0002 bore_rb
+ 5.00000000000000E-0001 bore_ra
+ 9.79999974370003E-0002 bore_rb_const
+ 5.00000000000000E-0001 bore_ra_const
+1 internal_heat_transfer (yes=1,no=0)
+1 baseloadenergy_mode (yes=1,no=0)
+2308.75098 annual_heat_load
+99999.00000 SPF_Heat
+1 direct (yes=1,no=0)
+326.44400 monthly heat load  1
+284.14401 monthly heat load  2
+259.81900 monthly heat load  3
+198.04500 monthly heat load  4
+9.47300 monthly heat load  5
+0.00000 monthly heat load  6
+0.00000 monthly heat load  7
+0.00000 monthly heat load  8
+0.00000 monthly heat load  9
+57.90000 monthly heat load 10
+203.15500 monthly heat load 11
+304.27100 monthly heat load 12
+0.14100 monthly heat factor  1
+0.12300 monthly heat factor  2
+0.11500 monthly heat factor  3
+0.09600 monthly heat factor  4
+0.07000 monthly heat factor  5
+0.03500 monthly heat factor  6
+0.02200 monthly heat factor  7
+0.03400 monthly heat factor  8
+0.05100 monthly heat factor  9
+0.07600 monthly heat factor 10
+0.10400 monthly heat factor 11
+0.13300 monthly heat factor 12
+350.00000 annual_cool_load
+99999.00000 SPF_Cool
+1 direct (yes=1,no=0)
+0.00000 monthly cool load  1
+0.00000 monthly cool load  2
+0.00000 monthly cool load  3
+0.00000 monthly cool load  4
+0.00000 monthly cool load  5
+185.15700 monthly cool load  6
+286.18701 monthly cool load  7
+195.70399 monthly cool load  8
+103.95300 monthly cool load  9
+0.00000 monthly cool load 10
+0.00000 monthly cool load 11
+0.00000 monthly cool load 12
+0.00000 monthly cool factor  1
+0.00000 monthly cool factor  2
+0.00000 monthly cool factor  3
+0.00700 monthly cool factor  4
+0.04400 monthly cool factor  5
+0.21200 monthly cool factor  6
+0.37600 monthly cool factor  7
+0.22900 monthly cool factor  8
+0.08300 monthly cool factor  9
+0.04600 monthly cool factor 10
+0.00300 monthly cool factor 11
+0.00000 monthly cool factor 12
+ 5.16000000000000E+0002 monthly heat peak load  1
+ 5.16000000000000E+0002 monthly heat peak load  2
+ 5.16000000000000E+0002 monthly heat peak load  3
+ 5.16000000000000E+0002 monthly heat peak load  4
+ 4.64000000000000E+0002 monthly heat peak load  5
+ 2.70000000000000E+0002 monthly heat peak load  6
+ 0.00000000000000E+0000 monthly heat peak load  7
+ 2.18000000000000E+0002 monthly heat peak load  8
+ 3.43000000000000E+0002 monthly heat peak load  9
+ 5.13000000000000E+0002 monthly heat peak load 10
+ 5.16000000000000E+0002 monthly heat peak load 11
+ 5.16000000000000E+0002 monthly heat peak load 12
+ 2.40000000000000E+0001 monthly heat duration  1
+ 2.40000000000000E+0001 monthly heat duration  2
+ 1.80000000000000E+0001 monthly heat duration  3
+ 1.80000000000000E+0001 monthly heat duration  4
+ 1.20000000000000E+0001 monthly heat duration  5
+ 1.20000000000000E+0001 monthly heat duration  6
+ 1.20000000000000E+0001 monthly heat duration  7
+ 1.20000000000000E+0001 monthly heat duration  8
+ 1.20000000000000E+0001 monthly heat duration  9
+ 1.80000000000000E+0001 monthly heat duration 10
+ 2.40000000000000E+0001 monthly heat duration 11
+ 2.40000000000000E+0001 monthly heat duration 12
+ 0.00000000000000E+0000 monthly cool peak load  1
+ 2.00000000000000E+0002 monthly cool peak load  2
+ 2.00000000000000E+0002 monthly cool peak load  3
+ 4.66000000000000E+0002 monthly cool peak load  4
+ 5.41000000000000E+0002 monthly cool peak load  5
+ 8.99000000000000E+0002 monthly cool peak load  6
+ 9.00000000000000E+0002 monthly cool peak load  7
+ 9.00000000000000E+0002 monthly cool peak load  8
+ 7.58000000000000E+0002 monthly cool peak load  9
+ 6.97000000000000E+0002 monthly cool peak load 10
+ 2.19000000000000E+0002 monthly cool peak load 11
+ 2.00000000000000E+0002 monthly cool peak load 12
+ 0.00000000000000E+0000 monthly cool duration  1
+ 0.00000000000000E+0000 monthly cool duration  2
+ 0.00000000000000E+0000 monthly cool duration  3
+ 6.00000000000000E+0000 monthly cool duration  4
+ 6.00000000000000E+0000 monthly cool duration  5
+ 2.40000000000000E+0001 monthly cool duration  6
+ 2.40000000000000E+0001 monthly cool duration  7
+ 2.40000000000000E+0001 monthly cool duration  8
+ 6.00000000000000E+0000 monthly cool duration  9
+ 6.00000000000000E+0000 monthly cool duration 10
+ 6.00000000000000E+0000 monthly cool duration 11
+ 0.00000000000000E+0000 monthly cool duration 12
+-5.00000000000000E+0000 tfluid_min_required
+ 1.50000000000000E+0001 tfluid_max_required
+1 include_peak_load (yes=1,no=0)
+25 max_number_of_cycles
+9 start_month
+-1
+-1
+-1
+-1
+441
+-1
+-1
+18
+-1
+49
+-1
+0.00000 annual DHW
+3.00000 SPF DHW
+0 Config min
+797 Config max
+ 3.00000000000000E+0001 Land area width
+ 2.00000000000000E+0001 Land area height
+5 Spacing min
+100 Spacing max
+ 5.00000000000000E+0001 Depth min
+ 3.00000000000000E+0002 Depth max
+2000 Borehole num max
+1 detail (yes=1,no=0)
+0 round off (yes=1,no=0)
+0 Also list cases with warnings (yes=1,no=0)
+2 Step
+0 Sort index
+EUR
+ 0.00000000000000E+0000 Cost fix
+ 0.00000000000000E+0000 Cost fix per bh 
+ 0.00000000000000E+0000 Cost drilling per m 
+ 0.00000000000000E+0000 Cost soil drilling per bh 
+ 0.00000000000000E+0000 Cost soil drilling per m
+ 0.00000000000000E+0000 depth soil drilling
+ 0.00000000000000E+0000 Cost ditch per m
+timer.txt
+qtest.txt
+qtest.txt
+qtest.txt
+qxls.txt
+0 Show results after
+1 CB_SolveHours (yes=1,no=0)
+0 CB_UseInitialBase (yes=1,no=0)
+0 CB_UseInitialPeak (yes=1,no=0)
+1 CB_readqifile (yes=1,no=0)
+1 CB_UseAnnualVariation (yes=1,no=0)
+1 CB_useheat (yes=1,no=0)
+1 CB_usecool (yes=1,no=0)
+0 CB_usedhw (yes=1,no=0)
+0 File option index
+S:\Oppdrag\Trondheim\10438\06\Grunnvarme\EED - Delt\Nord universitet\

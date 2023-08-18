@@ -1,0 +1,102 @@
+﻿EED 4.20 - www.buildingphysics.com - license for RandiK.Ramstad@asplanviak.no
+  Input file:C:\Users\magne.syljuasen\Desktop\INNLEDENDE_TIMER_TEST.dat
+  This output file: INNLEDENDE_TIMER_TEST.OUT  Date: 29.06.2023 Time: 14:25:10
+
+MEMORY NOTES FOR PROJECT
+[]
+
+QUICK FACTS
+  Cost                                       -
+  Number of boreholes                        66
+  Borehole depth                             283 m
+  Total borehole length                      1.868E4 m
+
+
+                 D E S I G N    D A T A      
+                 ======================      
+
+GROUND
+
+  Ground thermal conductivity                3.9 W/(m·K)
+  Ground heat capacity                       2.16 MJ/(m³·K)
+  Ground surface temperature                 4.75 °C
+  Geothermal heat flux                       0.04 W/m²
+
+BOREHOLE
+
+  Configuration:                             428 ("66 : 6 x 11 rectangle")
+  Borehole depth                             283 m
+  Borehole spacing                           15.8 m
+  Borehole installation                      Single-U
+  Borehole diameter                          114 mm
+  U-pipe diameter                            45 mm
+  U-pipe thickness                           4.1 mm
+  U-pipe thermal conductivity                0.42 W/(m·K)
+  U-pipe shank spacing                       62 mm
+  Filling thermal conductivity               0.6 W/(m·K)
+  Contact resistance pipe/filling            0 (m·K)/W
+
+THERMAL RESISTANCES
+
+  Borehole therm. res. fluid/ground          0.098 (m·K)/W
+  Borehole therm. res. internal              0.5 (m·K)/W
+  Internal heat transfer between upward and downward channel(s) is considered.
+
+HEAT CARRIER FLUID
+
+  Thermal conductivity                       0.43 W/(m·K)
+  Specific heat capacity                     4298 J/(Kg·K)
+  Density                                    971 Kg/m³
+  Viscosity                                  0.0045 Kg/(m·s)
+  Freezing point                             -14.6 °C
+  Flow rate per borehole                     1 l/s
+
+BASE LOAD
+
+  Number of simulation years                 25
+  First month of operation                   SEP
+
+
+                 C A L C U L A T E D    V A L U E S
+                 ==================================
+                       * Hourly calculation *
+
+  Total borehole length                      1.868E4 m
+
+
+THERMAL RESISTANCES
+
+  Effective borehole thermal res.            0.1011 (m·K)/W
+
+SPECIFIC HEAT EXTRACTION RATE [W/m]
+
+   Year 25     Peak heat      Peak cool
+   JAN          27.6          0
+   FEB          27.6      -10.7
+   MAR          27.6      -10.7
+   APR          27.6      -24.9
+   MAY          24.9      -46.7
+   JUN          14.4      -48.1
+   JUL             0      -48.2
+   AUG          11.7      -48.2
+   SEP          18.3      -40.6
+   OCT          27.5      -37.3
+   NOV          27.6      -11.7
+   DEC          27.6      -10.7
+
+ MIN/MAX FLUID TEMPERATURES
+
+   Year 25    Tf_min     Tf_max
+   JAN          -5.1      -1.97
+   FEB         -5.23       0.52
+   MAR         -5.16       2.03
+   APR         -4.89       4.57
+   MAY         -3.84       10.2
+   JUN          0.66       11.8
+   JUL          3.91       13.4
+   AUG          2.71       13.1
+   SEP          0.45       10.6
+   OCT         -2.54       10.1
+   NOV         -4.29       4.82
+   DEC         -4.63       1.52
+
